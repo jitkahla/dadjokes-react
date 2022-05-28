@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import './style.css';
 
 const Joke = ({ userAvatar, userName, text, likes, dislikes }) => {
   const [upLikes, setUpLikes] = useState(likes);
